@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60A7F9881D17DFA4005FD4D5 /* ShowUploadAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A7F9871D17DFA4005FD4D5 /* ShowUploadAssetViewController.m */; };
+		60D85D151D17D547005FAC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D85D141D17D547005FAC9D /* main.m */; };
+		60D85D181D17D547005FAC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D85D171D17D547005FAC9D /* AppDelegate.m */; };
+		60D85D1B1D17D547005FAC9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D85D1A1D17D547005FAC9D /* ViewController.m */; };
+		60D85D1E1D17D547005FAC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D85D1C1D17D547005FAC9D /* Main.storyboard */; };
+		60D85D201D17D547005FAC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D85D1F1D17D547005FAC9D /* Assets.xcassets */; };
+		60D85D231D17D547005FAC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D85D211D17D547005FAC9D /* LaunchScreen.storyboard */; };
+		80DF1057AA6D78F00F8A4C90 /* libPods-Play Skygear Asset.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E253BE1A2224A0F4A103009D /* libPods-Play Skygear Asset.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60A7F9861D17DFA4005FD4D5 /* ShowUploadAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowUploadAssetViewController.h; sourceTree = "<group>"; };
+		60A7F9871D17DFA4005FD4D5 /* ShowUploadAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowUploadAssetViewController.m; sourceTree = "<group>"; };
+		60D85D101D17D547005FAC9D /* Play Skygear Asset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play Skygear Asset.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D85D141D17D547005FAC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60D85D161D17D547005FAC9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60D85D171D17D547005FAC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60D85D191D17D547005FAC9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60D85D1A1D17D547005FAC9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60D85D1D1D17D547005FAC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60D85D1F1D17D547005FAC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60D85D221D17D547005FAC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60D85D241D17D547005FAC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4EEB350A916387C9449568 /* Pods-Play Skygear Asset.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Play Skygear Asset.release.xcconfig"; path = "Pods/Target Support Files/Pods-Play Skygear Asset/Pods-Play Skygear Asset.release.xcconfig"; sourceTree = "<group>"; };
+		E253BE1A2224A0F4A103009D /* libPods-Play Skygear Asset.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Play Skygear Asset.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DCBF4FC3E77E1C8D5E469F /* Pods-Play Skygear Asset.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Play Skygear Asset.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Play Skygear Asset/Pods-Play Skygear Asset.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60D85D0D1D17D547005FAC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DF1057AA6D78F00F8A4C90 /* libPods-Play Skygear Asset.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60D85D071D17D547005FAC9D = {
+			isa = PBXGroup;
+			children = (
+				60D85D121D17D547005FAC9D /* Play Skygear Asset */,
+				60D85D111D17D547005FAC9D /* Products */,
+				A8C0155EB09BF249E036DDEB /* Pods */,
+				A8D100D8907601A11F931BC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60D85D111D17D547005FAC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60D85D101D17D547005FAC9D /* Play Skygear Asset.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60D85D121D17D547005FAC9D /* Play Skygear Asset */ = {
+			isa = PBXGroup;
+			children = (
+				60D85D161D17D547005FAC9D /* AppDelegate.h */,
+				60A7F9861D17DFA4005FD4D5 /* ShowUploadAssetViewController.h */,
+				60D85D191D17D547005FAC9D /* ViewController.h */,
+				60D85D171D17D547005FAC9D /* AppDelegate.m */,
+				60A7F9871D17DFA4005FD4D5 /* ShowUploadAssetViewController.m */,
+				60D85D1A1D17D547005FAC9D /* ViewController.m */,
+				60D85D241D17D547005FAC9D /* Info.plist */,
+				60D85D1F1D17D547005FAC9D /* Assets.xcassets */,
+				60D85D211D17D547005FAC9D /* LaunchScreen.storyboard */,
+				60D85D1C1D17D547005FAC9D /* Main.storyboard */,
+				60D85D131D17D547005FAC9D /* Supporting Files */,
+			);
+			path = "Play Skygear Asset";
+			sourceTree = "<group>";
+		};
+		60D85D131D17D547005FAC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60D85D141D17D547005FAC9D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8C0155EB09BF249E036DDEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCBF4FC3E77E1C8D5E469F /* Pods-Play Skygear Asset.debug.xcconfig */,
+				CF4EEB350A916387C9449568 /* Pods-Play Skygear Asset.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8D100D8907601A11F931BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E253BE1A2224A0F4A103009D /* libPods-Play Skygear Asset.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60D85D0F1D17D547005FAC9D /* Play Skygear Asset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D85D271D17D547005FAC9D /* Build configuration list for PBXNativeTarget "Play Skygear Asset" */;
+			buildPhases = (
+				5E3397BAB4C6277D46558061 /* [CP] Check Pods Manifest.lock */,
+				60D85D0C1D17D547005FAC9D /* Sources */,
+				60D85D0D1D17D547005FAC9D /* Frameworks */,
+				60D85D0E1D17D547005FAC9D /* Resources */,
+				49AC465B41A806DBD13C501A /* [CP] Embed Pods Frameworks */,
+				B156C805109E8E4E132B9FD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play Skygear Asset";
+			productName = "Play Skygear Asset";
+			productReference = 60D85D101D17D547005FAC9D /* Play Skygear Asset.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60D85D081D17D547005FAC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Oursky;
+				TargetAttributes = {
+					60D85D0F1D17D547005FAC9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 60D85D0B1D17D547005FAC9D /* Build configuration list for PBXProject "Play Skygear Asset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60D85D071D17D547005FAC9D;
+			productRefGroup = 60D85D111D17D547005FAC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60D85D0F1D17D547005FAC9D /* Play Skygear Asset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60D85D0E1D17D547005FAC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D85D231D17D547005FAC9D /* LaunchScreen.storyboard in Resources */,
+				60D85D201D17D547005FAC9D /* Assets.xcassets in Resources */,
+				60D85D1E1D17D547005FAC9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49AC465B41A806DBD13C501A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Play Skygear Asset/Pods-Play Skygear Asset-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3397BAB4C6277D46558061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B156C805109E8E4E132B9FD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Play Skygear Asset/Pods-Play Skygear Asset-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60D85D0C1D17D547005FAC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D85D1B1D17D547005FAC9D /* ViewController.m in Sources */,
+				60D85D181D17D547005FAC9D /* AppDelegate.m in Sources */,
+				60D85D151D17D547005FAC9D /* main.m in Sources */,
+				60A7F9881D17DFA4005FD4D5 /* ShowUploadAssetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60D85D1C1D17D547005FAC9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D85D1D1D17D547005FAC9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60D85D211D17D547005FAC9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60D85D221D17D547005FAC9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60D85D251D17D547005FAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60D85D261D17D547005FAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60D85D281D17D547005FAC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DCBF4FC3E77E1C8D5E469F /* Pods-Play Skygear Asset.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Play Skygear Asset/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oursky.Play-Skygear-Asset";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60D85D291D17D547005FAC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4EEB350A916387C9449568 /* Pods-Play Skygear Asset.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Play Skygear Asset/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oursky.Play-Skygear-Asset";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60D85D0B1D17D547005FAC9D /* Build configuration list for PBXProject "Play Skygear Asset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D85D251D17D547005FAC9D /* Debug */,
+				60D85D261D17D547005FAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D85D271D17D547005FAC9D /* Build configuration list for PBXNativeTarget "Play Skygear Asset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D85D281D17D547005FAC9D /* Debug */,
+				60D85D291D17D547005FAC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60D85D081D17D547005FAC9D /* Project object */;
+}
